@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">hwick</string>
+    <string name="sfx_group01">메이플스토리 효과음</string>
+    <string name="sfx_group02">마인크래프트 효과음</string>
+    <string name="sfx_group03">광선검 효과음</string>
 </resources>
