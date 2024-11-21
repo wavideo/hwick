@@ -21,20 +21,31 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:background="@drawable/bg_stroke"
-        android:text="옵션1"
-        app:layout_constraintBottom_toTopOf="@+id/btn_play"
+        android:text="@string/sfx_swosh_001"
+        app:layout_constraintBottom_toTopOf="@+id/btn_swing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_play"
+        android:id="@+id/btn_swing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="재생"
+        android:text="휘두르기"
         android:soundEffectsEnabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:soundEffectsEnabled="false"
+        android:text="점프하기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_swing" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

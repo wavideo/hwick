@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">hwick</string>
+    <string name="sfx_swosh_001">1번 효과음</string>
+    <string name="sfx_swosh_002">2번 효과음</string>
+    <string name="sfx_swosh_003">3번 효과음</string>
 </resources>
